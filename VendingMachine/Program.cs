@@ -23,6 +23,9 @@ namespace VendingMachine
 
             // Make a pause in this program
             Console.ReadKey();
+
+            // Start the vending machine
+            Machine machine = new Machine();   
         }
     }
 }
